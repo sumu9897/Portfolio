@@ -11,6 +11,25 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section {
     margin: 20px;
 }
@@ -19,16 +38,12 @@ h2 {
     color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.project {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+.project h3 {
+    color: #333;
 }
